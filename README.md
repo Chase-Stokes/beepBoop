@@ -23,3 +23,11 @@ Code:
     beepBoop(input)
 Expected Output:
     [0, "beep", "boop"]        
+
+Test: 
+    It should replace any 3s in the output array with the string "wont you be my neighbor"
+Code:
+    const input="3"
+    beepBoop(input)
+Expected Output:
+    [0, "beep", "boop", "wont you be my neighbor"]        
