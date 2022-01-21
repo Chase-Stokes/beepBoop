@@ -93,3 +93,14 @@ Code:
     beepBoop(input, name)
 Expected Output:
     [0, "beep", "boop", "chase, wont you be my neighbor"]      
+
+Test: 
+    It should replace the meme numbers with the string "haha funny number"
+Code:
+    const input="69" / const input= 420
+    const name="chase"
+    beepBoop(input, name)
+Expected Output 1:
+    [0-68, "haha funny number"]      
+Expected Output 2:
+    [0-419, "haha funny number"]      
