@@ -15,3 +15,11 @@ Code:
     beepBoop(input)
 Expected Output:
     [0, "beep"]        
+
+Test: 
+    It should replace any 2s in the output array with the string "boop"
+Code:
+    const input="2"
+    beepBoop(input)
+Expected Output:
+    [0, "beep", "boop"]        
