@@ -1,9 +1,9 @@
 Describe beepBoop()
 
 Test: 
-    It should take a number as an input and return an array of numbers starting at 0 and ending at the input
+    It should take a number as an input of 0 and return 0 in an array
 Code:
-    const input="5"
+    const input=""
     beepBoop(input)
 Expected Output:
-    [0, 1, 2, 3, 4, 5]        
+    [0]        
