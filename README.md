@@ -39,3 +39,11 @@ Code:
     beepBoop(input)
 Expected Output:
     [0, "beep", "boop", "wont you be my neighbor", 4, 5, 6, 7, 8, 9, "beep", "beep", "boop", "wont you be my neighbor"]        
+
+Test: 
+    It should replace 21 in the output array with the string "boop" and not "beep"
+Code:
+    const input="13"
+    beepBoop(input)
+Expected Output:
+    [0, 'beep', 'boop', 'wont you be my neighbor', 4, 5, 6, 7, 8, 9, 'beep', 'beep', 'boop', 'wont you be my neighbor', 'beep', 'beep', 'beep', 'beep', 'beep', 'beep', 'boop', 'boop']     
