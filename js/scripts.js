@@ -20,7 +20,8 @@ $(document).ready(function(){
     event.preventDefault();
     let input = $("#number").val();
     let name = ("#name").val();
-    beepBoop(input, name)
+    let output = beepBoop(input, name);
+    $("#output").text(output);
   })
 })
 
