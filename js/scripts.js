@@ -5,10 +5,10 @@ function beepBoop(input, name) {
     if (iString.includes("69") || iString.includes("420")) {
       outputArray.push(" haha funny number")
     } else if (iString.includes("3")) {
-      outputArray.push("" +name + ", wont you be my neighbor ")
-    } else if (iString.includes(" 2")) {
+      outputArray.push(" " +name + ", wont you be my neighbor ")
+    } else if (iString.includes("2")) {
       outputArray.push(" boop ");
-    } else if (iString.includes(" 1")) {
+    } else if (iString.includes("1")) {
       outputArray.push(" beep");
     } else {
       outputArray.push(" " + i);
